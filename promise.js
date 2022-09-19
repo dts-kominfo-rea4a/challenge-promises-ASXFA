@@ -20,12 +20,7 @@ const promiseOutput = (emosi) => {
 						hasil += 1;
 					}
 				});
-				resolve(
-					'Emosi ' +
-						emosi +
-						' : ' +
-						hasil
-				);
+				resolve(hasil);
 			});
 		}
 	});
